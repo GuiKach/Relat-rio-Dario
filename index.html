@@ -597,7 +597,7 @@
                     </div>
                 </div>
                 <div class="header-info">
-                    Última atualização: 11:40
+                    Última atualização: 11:44
                 </div>
             </div>
         </div>
@@ -606,25 +606,276 @@
             
             <nav class="navigation">
                 
+                <button class="tab-btn active" 
+                        onclick="showTab('RUPTURA')" 
+                        data-group="RUPTURA">
+                    📊 RUPTURA
+                    <span class="tab-count">4</span>
+                </button>
+            
+                <button class="tab-btn " 
+                        onclick="showTab('FALTA')" 
+                        data-group="FALTA">
+                    📈 FALTA
+                    <span class="tab-count">3</span>
+                </button>
+            
+                <button class="tab-btn " 
+                        onclick="showTab('AGENDAMENTO')" 
+                        data-group="AGENDAMENTO">
+                    📅 AGENDAMENTO
+                    <span class="tab-count">2</span>
+                </button>
+            
+                <button class="tab-btn " 
+                        onclick="showTab('CUSTO')" 
+                        data-group="CUSTO">
+                    💰 CUSTO
+                    <span class="tab-count">1</span>
+                </button>
+            
                 <button class="tab-btn " 
                         onclick="showTab('EXCEDENTE E OCIOSO')" 
                         data-group="EXCEDENTE E OCIOSO">
                     📊  EXCEDENTE E OCIOSO
+                    <span class="tab-count">3</span>
+                </button>
+            
+                <button class="tab-btn " 
+                        onclick="showTab('REUNIÕES')" 
+                        data-group="REUNIÕES">
+                    📁 REUNIÕES
                     <span class="tab-count">1</span>
                 </button>
             
             </nav>
             
             
-                <div id="tab-EXCEDENTE E OCIOSO" class="tab-content ">
+                <div id="tab-RUPTURA" class="tab-content active">
                     <div class="group-header">
-                        <h2>📊  EXCEDENTE E OCIOSO</h2>
+                        <h2>📊 RUPTURA</h2>
                         <div class="group-stats">
-                            1 tabelas • Atualizado às 11:40
+                            4 tabelas • Atualizado às 11:44
                         </div>
                     </div>
                     <div class="tables-grid">
                         <div class="compact-table">
+    <div class="table-header">
+    <span>📊 Ruptura de estoque</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES</th><th>TOTAL DE ITENS</th><th>ESTOQUE ZERO</th><th>ITENS NOVOS</th><th>RUPTURA</th></tr></thead><tbody><tr><td>BRUNA M. DA C. S. PAULINO DOS SANTOS</td><td>92</td><td>33</td><td>26</td><td class="hl-badge" style="background:#f8d7da"><span class="metric-badge" style="background:#c0392b;color:#fff">7,60%</span></td></tr><tr><td>DANIELA OLIVEIRA MOREIRA</td><td>1041</td><td>72</td><td>31</td><td class="hl-badge" style="background:#fdebd0"><span class="metric-badge" style="background:#e67e22;color:#fff">3,93%</span></td></tr><tr><td>KLEBER ALVINO DE ARAUJO</td><td>52</td><td>3</td><td>1</td><td class="hl-badge" style="background:#fdebd0"><span class="metric-badge" style="background:#e67e22;color:#fff">3,84%</span></td></tr><tr><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>842</td><td>47</td><td>16</td><td class="hl-badge" style="background:#fdebd0"><span class="metric-badge" style="background:#e67e22;color:#fff">3,68%</span></td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>1179</td><td>132</td><td>89</td><td class="hl-badge" style="background:#fdebd0"><span class="metric-badge" style="background:#e67e22;color:#fff">3,64%</span></td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>1586</td><td>67</td><td>23</td><td>2,77%</td></tr><tr><td>EMILIO CARLOS PASSOS</td><td>1440</td><td>52</td><td>17</td><td>2,43%</td></tr><tr><td>JULIANO MAZZONE FILHO</td><td>718</td><td>37</td><td>20</td><td>2,36%</td></tr><tr><td>NATHALIA MANSUR SGANZERLA DE MATOS</td><td>1448</td><td>35</td><td>5</td><td>2,07%</td></tr><tr><td>LISA ALVES SOUSA</td><td>971</td><td>107</td><td>88</td><td>1,95%</td></tr><tr><td>Total Geral</td><td>9369</td><td>585</td><td>316</td><td>2,87%</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        11 registro(s)
+    </div>
+    
+    </div><div class="compact-table">
+    <div class="table-header">
+    <span>🏆 Top 20 - Estoque</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES</th><th>PRODUTO</th><th>RUPTURA TOP 20</th></tr></thead><tbody><tr><td>JULIANO MAZZONE FILHO</td><td>11595701</td><td>1</td></tr><tr><td>LISA ALVES SOUSA</td><td>11199989</td><td>3</td></tr><tr><td>LISA ALVES SOUSA</td><td>11268271</td><td>2</td></tr><tr><td>LISA ALVES SOUSA</td><td>11534664</td><td>5</td></tr><tr><td>NATHALIA MANSUR SGANZERLA DE MATOS</td><td>11596007</td><td>4</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>9100008</td><td>1</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11004401</td><td>4</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11005890</td><td>12</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11093498</td><td>11</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11121602</td><td>6</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11121645</td><td>5</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11224320</td><td>2</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11232030</td><td>4</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11292369</td><td>2</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>11753005</td><td>7</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        15 registro(s)
+    </div>
+    
+    </div><div class="compact-table">
+    <div class="table-header">
+    <span>📊 Ruptura detalhada do dia</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES</th><th>01/08/2025</th><th>04/08/2025</th><th>05/08/2025</th><th>06/08/2025</th><th>07/08/2025</th><th>08/08/2025</th><th>11/08/2025</th><th>12/08/2025</th><th>13/08/2025</th><th>14/08/2025</th><th>15/08/2025</th><th>18/08/2025</th><th>19/08/2025</th><th>20/08/2025</th><th>21/08/2025</th><th>22/08/2025</th><th>25/08/2025</th><th>MÉDIA</th></tr></thead><tbody><tr><td>BRUNA M. DA C. S. PAULINO DOS SANTOS</td><td>5,37%</td><td>8,51%</td><td>9,57%</td><td>9,67%</td><td>9,67%</td><td>9,67%</td><td>11,82%</td><td>10,75%</td><td>10,75%</td><td>13,97%</td><td>9,67%</td><td>10,30%</td><td>10,30%</td><td>6,52%</td><td>6,52%</td><td>7,60%</td><td>7,60%</td><td class="hl-badge" style="background:#f8d7da"><span class="metric-badge" style="background:#c0392b;color:#fff">9,31%</span></td></tr><tr><td>KLEBER ALVINO DE ARAUJO</td><td>1,88%</td><td>5,66%</td><td>7,54%</td><td>5,26%</td><td>6,00%</td><td>5,88%</td><td>5,88%</td><td>3,92%</td><td>3,92%</td><td>1,96%</td><td>1,96%</td><td>1,96%</td><td>1,92%</td><td>1,92%</td><td>3,84%</td><td>1,92%</td><td>3,84%</td><td class="hl-badge" style="background:#fdebd0"><span class="metric-badge" style="background:#e67e22;color:#fff">3,84%</span></td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>5,57%</td><td>5,23%</td><td>5,05%</td><td>4,78%</td><td>5,18%</td><td>5,10%</td><td>5,27%</td><td>4,93%</td><td>4,32%</td><td>4,59%</td><td>3,97%</td><td>3,79%</td><td>3,79%</td><td>4,56%</td><td>3,97%</td><td>4,23%</td><td>3,64%</td><td class="hl-badge" style="background:#f8d7da"><span class="metric-badge" style="background:#c0392b;color:#fff">4,59%</span></td></tr><tr><td>LISA ALVES SOUSA</td><td>1,78%</td><td>2,63%</td><td>3,69%</td><td>2,65%</td><td>3,18%</td><td>4,05%</td><td>4,26%</td><td>3,94%</td><td>4,16%</td><td>3,20%</td><td>2,46%</td><td>2,57%</td><td>2,04%</td><td>1,80%</td><td>1,69%</td><td>2,55%</td><td>1,95%</td><td>2,86%</td></tr><tr><td>NATHALIA MANSUR SGANZERLA DE MATOS</td><td>2,86%</td><td>2,79%</td><td>3,35%</td><td>2,65%</td><td>2,51%</td><td>2,86%</td><td>2,94%</td><td>2,38%</td><td>2,52%</td><td>2,41%</td><td>2,14%</td><td>1,72%</td><td>1,72%</td><td>2,00%</td><td>2,27%</td><td>2,20%</td><td>2,07%</td><td>2,44%</td></tr><tr><td>DANIELA OLIVEIRA MOREIRA</td><td>2,83%</td><td>3,13%</td><td>3,32%</td><td>3,52%</td><td>3,91%</td><td>4,01%</td><td>3,72%</td><td>4,13%</td><td>3,84%</td><td>3,51%</td><td>3,38%</td><td>3,46%</td><td>3,94%</td><td>3,66%</td><td>3,47%</td><td>3,46%</td><td>3,93%</td><td class="hl-badge" style="background:#fdebd0"><span class="metric-badge" style="background:#e67e22;color:#fff">3,60%</span></td></tr><tr><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>4,07%</td><td>3,68%</td><td>3,09%</td><td>2,97%</td><td>3,68%</td><td>3,67%</td><td>6,04%</td><td>5,55%</td><td>5,45%</td><td>4,97%</td><td>4,50%</td><td>4,38%</td><td>3,08%</td><td>3,20%</td><td>3,20%</td><td>3,08%</td><td>3,68%</td><td class="hl-badge" style="background:#f8d7da"><span class="metric-badge" style="background:#c0392b;color:#fff">4,02%</span></td></tr><tr><td>JULIANO MAZZONE FILHO</td><td>3,10%</td><td>2,53%</td><td>2,39%</td><td>2,53%</td><td>3,37%</td><td>3,23%</td><td>2,95%</td><td>2,81%</td><td>2,38%</td><td>1,68%</td><td>1,40%</td><td>1,39%</td><td>1,67%</td><td>2,37%</td><td>2,79%</td><td>1,95%</td><td>2,36%</td><td>2,41%</td></tr><tr><td>EMILIO CARLOS PASSOS</td><td>1,59%</td><td>1,93%</td><td>1,87%</td><td>1,66%</td><td>2,21%</td><td>2,70%</td><td>2,15%</td><td>2,08%</td><td>1,73%</td><td>1,80%</td><td>1,87%</td><td>1,52%</td><td>1,59%</td><td>1,73%</td><td>2,56%</td><td>2,70%</td><td>2,43%</td><td>2,01%</td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>1,07%</td><td>1,71%</td><td>1,77%</td><td>2,21%</td><td>2,21%</td><td>2,85%</td><td>3,04%</td><td>2,66%</td><td>2,85%</td><td>2,47%</td><td>1,77%</td><td>2,02%</td><td>2,15%</td><td>2,28%</td><td>2,28%</td><td>2,58%</td><td>2,77%</td><td>2,28%</td></tr><tr><td>Total Geral</td><td>2,70%</td><td>2,92%</td><td>3,07%</td><td>2,88%</td><td>3,23%</td><td>3,54%</td><td>3,73%</td><td>3,46%</td><td>3,34%</td><td>3,09%</td><td>2,67%</td><td>2,59%</td><td>2,53%</td><td>2,68%</td><td>2,78%</td><td>2,89%</td><td>2,87%</td><td class="hl-badge" style="background:#fdebd0"><span class="metric-badge" style="background:#e67e22;color:#fff">3,00%</span></td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        11 registro(s)
+    </div>
+    
+    </div><div class="compact-table">
+    <div class="table-header">
+    <span>📊 Análise 60</span>
+    <div class="actions"><span class="info-icon" data-tip="Produtos com estoque superior a 200 e redução de pelo menos 60%.">ℹ️</span></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES</th><th>PRODUTO</th><th>DESCRIÇÃO DO PRODUTO</th><th>HOJE</th><th>ONTEM</th><th>%Δ</th></tr></thead><tbody><tr><td>DANIELA OLIVEIRA MOREIRA</td><td>10565639</td><td>LUVA VERDE DE PROTECAO TOP MEDIA PAR</td><td>0</td><td>240</td><td>-100,00%</td></tr><tr><td>EMILIO CARLOS PASSOS</td><td>10755632</td><td>ENV SOF 370X450 90G - FORONI</td><td>0</td><td>968</td><td>-100,00%</td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>9040706</td><td>ENV PLASTICO OFICIO 0,06 4F ACP</td><td>678</td><td>4253</td><td>-84,05%</td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>9173951</td><td>PASTA ABA ELAST PP (MINI) CRISTAL A01B</td><td>0</td><td>882</td><td>-100,00%</td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>9103511</td><td>CAPA PVC P/ENCAD A4 AZUL MARINHO</td><td>83</td><td>244</td><td>-65,98%</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        5 registro(s)
+    </div>
+    
+    </div>
+                    </div>
+                </div>
+            
+                <div id="tab-FALTA" class="tab-content ">
+                    <div class="group-header">
+                        <h2>📈 FALTA</h2>
+                        <div class="group-stats">
+                            3 tabelas • Atualizado às 11:44
+                        </div>
+                    </div>
+                    <div class="tables-grid">
+                        <div class="compact-table">
+    <div class="table-header">
+    <span>📊 Produtos em falta</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES</th><th>SKU NA FALTA</th><th>VL FALTA</th><th>% FALTA</th></tr></thead><tbody><tr><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>31</td><td>R$ 92.632,95</td><td>35,78%</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>34</td><td>R$ 81.280,40</td><td>31,39%</td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>21</td><td>R$ 31.869,46</td><td>12,31%</td></tr><tr><td>NATHALIA MANSUR SGANZERLA DE MATOS</td><td>23</td><td>R$ 16.311,48</td><td>6,30%</td></tr><tr><td>DANIELA OLIVEIRA MOREIRA</td><td>26</td><td>R$ 13.440,91</td><td>5,19%</td></tr><tr><td>EMILIO CARLOS PASSOS</td><td>17</td><td>R$ 9.265,21</td><td>3,57%</td></tr><tr><td>KLEBER ALVINO DE ARAUJO</td><td>2</td><td>R$ 8.191,80</td><td>3,16%</td></tr><tr><td>JULIANO MAZZONE FILHO</td><td>8</td><td>R$ 3.139,31</td><td>1,21%</td></tr><tr><td>LISA ALVES SOUSA</td><td>8</td><td>R$ 1.968,64</td><td>0,76%</td></tr><tr><td>BRUNA M. DA C. S. PAULINO DOS SANTOS</td><td>8</td><td>R$ 769,35</td><td>0,29%</td></tr><tr><td>Total Geral</td><td>178</td><td>R$ 258.869,51</td><td>100,00%</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        11 registro(s)
+    </div>
+    
+    </div><div class="compact-table">
+    <div class="table-header">
+    <span>📊 Ranking de SKU&#x27;s em falta</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>PRODUTO</th><th>DESCRICAO PRODUTO</th><th>COMPRADORES</th><th>VL FALTA</th></tr></thead><tbody><tr><td>11783290</td><td>TAPETE ERG ANT-FADIGA 12X700X990MM</td><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>R$ 65.728,00</td></tr><tr><td>11785756</td><td>SMART TV 55P SEMP TOSHIBA LED 4K 55S61</td><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>R$ 18.862,69</td></tr><tr><td>11764392</td><td>RADIO COMUNICADOR RC3002 G2 C/2 UNID</td><td>LEANDRO DE LIMA VIEIRA</td><td>R$ 17.629,64</td></tr><tr><td>11121645</td><td>TECLADO USB K120 PRETO</td><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>R$ 12.401,92</td></tr><tr><td>11783303</td><td>CALCO P/ RODA DE CAMINHAO 150X150X250MM</td><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>R$ 10.620,00</td></tr><tr><td>10989153</td><td>PRENDEDOR JACARE P/CRACHA FOSCO PT/100</td><td>LEANDRO DE LIMA VIEIRA</td><td>R$ 7.843,84</td></tr><tr><td>11792655</td><td>SMART TV 43P SAMSUNG LED UN43F6000FGXZD</td><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>R$ 7.217,10</td></tr><tr><td>11746955</td><td>PAPEL CHAMEX A4 75G OF 500FL (STA CAT)</td><td>KLEBER ALVINO DE ARAUJO</td><td>R$ 7.180,80</td></tr><tr><td>11782838</td><td>CARRO P/FERRAMEN 1 GAVETA CAR-022 ORK</td><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>R$ 7.122,82</td></tr><tr><td>9134891</td><td>PALHETA PLAST PQNA BRANCA PT/1000</td><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>R$ 5.687,52</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        10 registro(s)
+    </div>
+    
+    </div><div class="compact-table">
+    <div class="table-header">
+    <span>📊 Análise mensal de falta</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>DIA</th><th>VALOR TOTAL DA VENDA</th><th>VALOR EM FALTA</th></tr></thead><tbody><tr><td>08/01/2025</td><td>R$ 1.180.054,08</td><td>R$ 219.513,82</td></tr><tr><td>08/04/2025</td><td>R$ 1.309.375,73</td><td>R$ 239.003,13</td></tr><tr><td>08/05/2025</td><td>R$ 1.453.558,48</td><td>R$ 224.815,33</td></tr><tr><td>08/06/2025</td><td>R$ 1.338.155,80</td><td>R$ 213.495,12</td></tr><tr><td>08/07/2025</td><td>R$ 1.401.500,81</td><td>R$ 243.311,00</td></tr><tr><td>08/08/2025</td><td>R$ 1.966.013,36</td><td>R$ 257.072,17</td></tr><tr><td>08/11/2025</td><td>R$ 1.667.027,50</td><td>R$ 276.531,01</td></tr><tr><td>08/12/2025</td><td>R$ 1.664.914,97</td><td>R$ 295.092,70</td></tr><tr><td>13/08/2025</td><td>R$ 1.479.611,89</td><td>R$ 285.456,10</td></tr><tr><td>14/08/2025</td><td>R$ 1.453.573,93</td><td>R$ 312.820,26</td></tr><tr><td>15/08/2025</td><td>R$ 1.270.231,17</td><td>R$ 249.780,30</td></tr><tr><td>18/08/2025</td><td>R$ 1.252.972,40</td><td>R$ 225.813,68</td></tr><tr><td>19/08/2025</td><td>R$ 1.251.173,58</td><td>R$ 249.493,85</td></tr><tr><td>20/08/2025</td><td>R$ 1.224.893,51</td><td>R$ 249.153,66</td></tr><tr><td>21/08/2025</td><td>R$ 1.393.795,96</td><td>R$ 240.873,78</td></tr><tr><td>22/08/2025</td><td>R$ 1.336.863,67</td><td>R$ 228.586,25</td></tr><tr><td>25/08/2025</td><td>R$ 1.449.347,12</td><td>R$ 258.869,51</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        17 registro(s)
+    </div>
+    
+    </div>
+                    </div>
+                </div>
+            
+                <div id="tab-AGENDAMENTO" class="tab-content ">
+                    <div class="group-header">
+                        <h2>📅 AGENDAMENTO</h2>
+                        <div class="group-stats">
+                            2 tabelas • Atualizado às 11:44
+                        </div>
+                    </div>
+                    <div class="tables-grid">
+                        <div class="compact-table">
+    <div class="table-header">
+    <span>📅 Agendamento do dia</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES SK</th><th>ITENS S/ AGENDAMENTO</th></tr></thead><tbody><tr><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>0</td></tr><tr><td>DANIELA OLIVEIRA MOREIRA</td><td>4</td></tr><tr><td>EMILIO CARLOS PASSOS</td><td>0</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>8</td></tr><tr><td>JULIANO MAZZONE FILHO</td><td>3</td></tr><tr><td>LISA ALVES SOUSA</td><td>18</td></tr><tr><td>NATHALIA MANSUR SGANZERLA DE MATOS</td><td>3</td></tr><tr><td>Total Geral</td><td>36</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        8 registro(s)
+    </div>
+    
+    </div><div class="compact-table">
+    <div class="table-header">
+    <span>📅 Acompanhamento diário</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>DIA</th><th>ALESSANDRO PEREIRA</th><th>DANIELA OLIVEIRA</th><th>EMILIO CARLOS</th><th>HENRIQUE ORTEGA</th><th>JULIANO MAZZONE</th><th>LEANDRO DE LIMA</th><th>LISA ALVES</th><th>NATHALIA MANSUR</th><th>Total Geral</th></tr></thead><tbody><tr><td>08/01/2025</td><td>0</td><td>31</td><td>0</td><td>26</td><td>1</td><td>0</td><td>21</td><td>14</td><td>93</td></tr><tr><td>08/04/2025</td><td>0</td><td>0</td><td>3</td><td>58</td><td>8</td><td>0</td><td>21</td><td>15</td><td>105</td></tr><tr><td>08/05/2025</td><td>0</td><td>18</td><td>0</td><td>27</td><td>2</td><td>1</td><td>34</td><td>13</td><td>95</td></tr><tr><td>08/06/2025</td><td></td><td>5</td><td>1</td><td>26</td><td>0</td><td>1</td><td>5</td><td>0</td><td>38</td></tr><tr><td>08/07/2025</td><td>1</td><td>33</td><td>0</td><td>1</td><td></td><td>0</td><td>8</td><td>15</td><td>58</td></tr><tr><td>08/08/2025</td><td>5</td><td>3</td><td>1</td><td>57</td><td>0</td><td>2</td><td>51</td><td>32</td><td>151</td></tr><tr><td>08/11/2025</td><td>0</td><td>11</td><td>0</td><td>29</td><td>0</td><td>0</td><td>27</td><td>53</td><td>120</td></tr><tr><td>08/12/2025</td><td>0</td><td>0</td><td>0</td><td>4</td><td>5</td><td>0</td><td>5</td><td>49</td><td>63</td></tr><tr><td>13/08/2025</td><td>0</td><td>0</td><td>3</td><td>2</td><td>9</td><td>1</td><td>74</td><td>5</td><td>94</td></tr><tr><td>14/08/2025</td><td>0</td><td>17</td><td>12</td><td>0</td><td>2</td><td>46</td><td>21</td><td>12</td><td>110</td></tr><tr><td>15/08/2025</td><td>2</td><td>12</td><td>0</td><td>0</td><td>14</td><td>0</td><td>72</td><td>16</td><td>116</td></tr><tr><td>18/08/2025</td><td>0</td><td>10</td><td>0</td><td>3</td><td>0</td><td>0</td><td>52</td><td>17</td><td>82</td></tr><tr><td>19/08/2025</td><td>1</td><td>3</td><td>0</td><td>0</td><td>1</td><td></td><td>15</td><td>6</td><td>26</td></tr><tr><td>20/08/2025</td><td>1</td><td>8</td><td>0</td><td>24</td><td>2</td><td>4</td><td>0</td><td>3</td><td>42</td></tr><tr><td>21/08/2025</td><td>0</td><td>17</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>20</td></tr><tr><td>22/08/2025</td><td>2</td><td>38</td><td>6</td><td>2</td><td>0</td><td>0</td><td>43</td><td>22</td><td>113</td></tr><tr><td>25/08/2025</td><td>0</td><td>4</td><td>0</td><td>8</td><td>3</td><td></td><td>18</td><td>3</td><td>36</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        17 registro(s)
+    </div>
+    
+    </div>
+                    </div>
+                </div>
+            
+                <div id="tab-CUSTO" class="tab-content ">
+                    <div class="group-header">
+                        <h2>💰 CUSTO</h2>
+                        <div class="group-stats">
+                            1 tabelas • Atualizado às 11:44
+                        </div>
+                    </div>
+                    <div class="tables-grid">
+                        <div class="compact-table">
+    <div class="table-header">
+    <span>💰 Análise de Custo</span>
+    <div class="actions"><span class="info-icon" data-tip="Demanda utilizada: Média dos 3 últimos meses.">ℹ️</span></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES</th><th>CUSTO DIA 1</th><th>CUSTO HOJE</th><th>Δ</th><th>%Δ</th></tr></thead><tbody><tr><td>LISA ALVES SOUSA</td><td>R$ 6.267.632,09</td><td>R$ 6.073.799,28</td><td>R$ 193.832,81</td><td>-3,09%</td></tr><tr><td>BRUNA M. DA C. S. PAULINO DOS SANTOS</td><td>R$ 463.334,93</td><td>R$ 454.484,78</td><td>R$ 8.850,15</td><td>-1,91%</td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>R$ 3.003.171,36</td><td>R$ 2.994.372,37</td><td>R$ 8.798,99</td><td>-0,29%</td></tr><tr><td>JULIANO MAZZONE FILHO</td><td>R$ 5.940.984,52</td><td>R$ 5.936.019,57</td><td>R$ 4.964,95</td><td>-0,08%</td></tr><tr><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>R$ 1.965.135,03</td><td>R$ 1.961.510,84</td><td>R$ 3.624,19</td><td>-0,18%</td></tr><tr><td>NATHALIA MANSUR SGANZERLA DE MATOS</td><td>R$ 4.232.996,32</td><td>R$ 4.239.775,63</td><td>R$ 6.779,31</td><td>0,16%</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>R$ 1.786.068,35</td><td>R$ 1.794.553,10</td><td>R$ 8.484,75</td><td>0,47%</td></tr><tr><td>DANIELA OLIVEIRA MOREIRA</td><td>R$ 2.405.506,50</td><td>R$ 2.424.977,97</td><td>R$ 19.471,47</td><td>0,80%</td></tr><tr><td>EMILIO CARLOS PASSOS</td><td>R$ 3.408.753,57</td><td>R$ 3.485.377,49</td><td>R$ 76.623,92</td><td>2,24%</td></tr><tr><td>Total Geral</td><td>R$ 29.473.582,68</td><td>R$ 29.364.871,03</td><td>R$ 108.711,65</td><td>-0,36%</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        10 registro(s)
+    </div>
+    
+    </div>
+                    </div>
+                </div>
+            
+                <div id="tab-EXCEDENTE E OCIOSO" class="tab-content ">
+                    <div class="group-header">
+                        <h2>📊  EXCEDENTE E OCIOSO</h2>
+                        <div class="group-stats">
+                            3 tabelas • Atualizado às 11:44
+                        </div>
+                    </div>
+                    <div class="tables-grid">
+                        <div class="compact-table">
+    <div class="table-header">
+    <span>📊 Excedente</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES</th><th>EXCEDENTE DIA 1</th><th>EXCEDENTE HOJE</th><th>Δ</th><th>%Δ</th></tr></thead><tbody><tr><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>R$ 891.040,26</td><td>R$ 726.368,45</td><td>R$ 164.671,81</td><td>-18,48%</td></tr><tr><td>DANIELA OLIVEIRA MOREIRA</td><td>R$ 463.650,53</td><td>R$ 275.494,15</td><td>R$ 188.156,38</td><td>-40,58%</td></tr><tr><td>EMILIO CARLOS PASSOS</td><td>R$ 193.766,87</td><td>R$ 141.941,31</td><td>R$ 51.825,56</td><td>-26,74%</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>R$ 277.826,83</td><td>R$ 145.302,64</td><td>R$ 132.524,19</td><td>-47,70%</td></tr><tr><td>IMPORTADO</td><td>R$ 1.252.862,19</td><td>R$ 1.104.583,62</td><td>R$ 148.278,57</td><td>-11,83%</td></tr><tr><td>JULIANO MAZZONE FILHO</td><td>R$ 403.728,28</td><td>R$ 245.977,98</td><td>R$ 157.750,30</td><td>-39,07%</td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>R$ 263.071,35</td><td>R$ 135.773,43</td><td>R$ 127.297,92</td><td>-48,38%</td></tr><tr><td>LISA ALVES SOUSA</td><td>R$ 402.118,21</td><td>R$ 261.498,36</td><td>R$ 140.619,85</td><td>-34,96%</td></tr><tr><td>NATHALIA MANSUR SGANZERLA DE MATOS</td><td>R$ 534.547,39</td><td>R$ 165.687,71</td><td>R$ 368.859,68</td><td>-69,00%</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        9 registro(s)
+    </div>
+    
+    </div><div class="compact-table">
+    <div class="table-header">
+    <span>📊 Ocioso</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADORES</th><th>OCIOSO DIA 1</th><th>OCIOSO HOJE</th><th>Δ</th><th>%Δ</th></tr></thead><tbody><tr><td>ALESSANDRO PEREIRA DE CARVALHO</td><td>R$ 129.288,43</td><td>R$ 88.898,28</td><td>R$ 40.390,15</td><td>-31,24%</td></tr><tr><td>DANIELA OLIVEIRA MOREIRA</td><td>R$ 34.581,48</td><td>R$ 15.756,77</td><td>R$ 18.824,71</td><td>-54,43%</td></tr><tr><td>EMILIO CARLOS PASSOS</td><td>R$ 57.093,67</td><td>R$ 39.257,62</td><td>R$ 17.836,05</td><td>-31,23%</td></tr><tr><td>HENRIQUE ORTEGA DO SACRAMENTO</td><td>R$ 214.995,64</td><td>R$ 114.841,68</td><td>R$ 100.153,96</td><td>-46,58%</td></tr><tr><td>IMPORTADO</td><td>R$ 10.271,20</td><td>R$ 10.271,20</td><td>R$ 0,00</td><td>-&lt;0,01%</td></tr><tr><td>JULIANO MAZZONE FILHO</td><td>R$ 121.474,53</td><td>R$ 74.665,18</td><td>R$ 46.809,35</td><td>-38,53%</td></tr><tr><td>KLEBER ALVINO DE ARAUJO</td><td>R$ 639,84</td><td></td><td></td><td></td></tr><tr><td>LEANDRO DE LIMA VIEIRA</td><td>R$ 53.870,92</td><td>R$ 24.232,24</td><td>R$ 29.638,68</td><td>-55,01%</td></tr><tr><td>LISA ALVES SOUSA</td><td>R$ 2.943,19</td><td>R$ 230,64</td><td>R$ 2.712,55</td><td>-92,16%</td></tr><tr><td>NATHALIA MANSUR SGANZERLA DE MATOS</td><td>R$ 87.281,01</td><td>R$ 77.743,87</td><td>R$ 9.537,14</td><td>-10,92%</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        10 registro(s)
+    </div>
+    
+    </div><div class="compact-table">
     <div class="table-header">
     <span>📊 export_excedente</span>
     <div class="actions"><button class="btn-export" onclick="exportDataset('export_excedente', this)">⬇️ Exportar</button></div>
@@ -642,12 +893,39 @@
                     </div>
                 </div>
             
+                <div id="tab-REUNIÕES" class="tab-content ">
+                    <div class="group-header">
+                        <h2>📁 REUNIÕES</h2>
+                        <div class="group-stats">
+                            1 tabelas • Atualizado às 11:44
+                        </div>
+                    </div>
+                    <div class="tables-grid">
+                        <div class="compact-table">
+    <div class="table-header">
+    <span>📊 Reuniões</span>
+    <div class="actions"></div>
+    </div>
+    <div class="table-wrapper">
+        <table>
+        <thead><tr><th>COMPRADOR</th><th>REUNIÕES</th><th>FORNC NOVOS</th><th>APRESENTAÇÃO DE ITEM NOVO</th><th>META</th></tr></thead><tbody><tr><td>Daniela Oliveira Moreira</td><td>8</td><td>5</td><td>4</td><td>OK</td></tr><tr><td>Lisa Alves Sousa</td><td>9</td><td>4</td><td>2</td><td>OK</td></tr><tr><td>
+Henrique Ortega do Sacramento</td><td>6</td><td>2</td><td>1</td><td>Não OK</td></tr><tr><td>Nathalia Mansur Sganzerla de Matos</td><td>5</td><td>1</td><td></td><td>Não OK</td></tr><tr><td>Juliano Mazzone Filho</td><td>7</td><td>2</td><td></td><td>Não OK</td></tr></tbody>
+        </table>
+    </div>
+    <div class="table-footer">
+        5 registro(s)
+    </div>
+    
+    </div>
+                    </div>
+                </div>
+            
         </div>
         
         <div class="footer">
             <p><strong>📊 Relatórios</strong> | Atenciosamente,</p>
             <p style="font-size: 10px; opacity: 0.7;">
-                Gerado em 25/08/2025 às 11:40
+                Gerado em 25/08/2025 às 11:44
             </p>
         </div>
         
@@ -696,7 +974,7 @@
                 if (diff > 0) {
                     document.querySelectorAll('.header-info').forEach(el => {
                         if (el.textContent.includes('Última atualização')) {
-                            el.textContent = `Última atualização: 11:40 (há ${diff} min)`;
+                            el.textContent = `Última atualização: 11:44 (há ${diff} min)`;
                         }
                     });
                 }
